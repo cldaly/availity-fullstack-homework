@@ -1,0 +1,23 @@
+.intro {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+}
+.regis-btn {
+   height: 60px;
+   background-color: #ffffff;
+   border: 1px solid #008337;
+   color: #008337;
+   font-size: 1.4em;
+   padding: 16px 36px;
+   margin-top: 24px;
+   border-radius: 30px;
+   transition: 0.08s linear;
+}
+.regis-btn:hover {
+   cursor: pointer;
+   background-color: #008337;
+   color: #ffffff;
+   transition: 0.15s linear;
+}
