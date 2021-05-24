@@ -37,7 +37,7 @@ public class EnrollmentDataProcessor {
 		return users;
 	}
 
-	private static void writeGroupToFile(File origin, InsuranceGrouping group) throws IOException {
+	private static void writeGroupToFile(File origin, InsuranceGrouping group) {
 		String dir = origin.getParentFile().getAbsolutePath()
 				.substring(0, origin.getParentFile().getAbsolutePath().lastIndexOf('/'))
 				+ "/output-files/" + origin.getName().substring(0, origin.getName().lastIndexOf('.')) + "/";

@@ -57,12 +57,10 @@ public class EnrolledUser {
 	}
 
 	public String printAsCsv() {
-		StringBuilder str = new StringBuilder();
-		str.append(userId).append(CSV_SEPARATOR);
-		str.append(firstName).append(CSV_SEPARATOR);
-		str.append(lastName).append(CSV_SEPARATOR);
-		str.append(version).append(CSV_SEPARATOR);
-		str.append(insuranceCompany).append(System.lineSeparator());
-		return str.toString();
+		return userId + CSV_SEPARATOR +
+				firstName + CSV_SEPARATOR +
+				lastName + CSV_SEPARATOR +
+				version + CSV_SEPARATOR +
+				insuranceCompany + System.lineSeparator();
 	}
 }
